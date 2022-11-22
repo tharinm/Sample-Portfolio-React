@@ -1,0 +1,38 @@
+.p{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border : 2px solid rgba(10, 20, 30, 0.333);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.p-browser{
+    background-color: rgba(6, 29, 52, 0.4);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+    position: sticky;
+
+    
+}
+
+.p-circle{
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    margin:3px;
+    background-color: aliceblue;
+}
+
+p-img{
+    width:100%;
+    transition: all 10s ease;
+}
+
+p:hover .p-img 
+{ 
+ transform: translateY(-100%);
+}
